@@ -341,5 +341,10 @@ window.addEventListener('DOMContentLoaded', () => {
     //     .then(response => response.json())
     //     .then(json => console.log(json));
 
+    // json-server (Exercise 89)
+
+    fetch('db.json')
+        .then(data => data.json())
+        .then(res => console.log(res));
 
 });
