@@ -323,22 +323,22 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 3000);
     }
 
-    fetch('https://jsonplaceholder.typicode.com/todos/1')
-        .then(response => response.json())
-        .then(json => console.log(json));
+    // fetch('https://jsonplaceholder.typicode.com/todos/1')
+    //     .then(response => response.json())
+    //     .then(json => console.log(json));
 
-    fetch('https:/jsonplaceholder.typicode.com/todos/7', { metod: 'GET' })
-        .then(response => response.json())
-        .then(json => console.log(json));
+    // fetch('https:/jsonplaceholder.typicode.com/todos/7', { metod: 'GET' })
+    //     .then(response => response.json())
+    //     .then(json => console.log(json));
 
-    fetch('https:/jsonplaceholder.typicode.com/posts', {
-        method: "POST",
-        body: JSON.stringify({ name: 'Nick' }),
-        headers: {
-            'Content-type': 'application/json'
-        }
-    })
-        .then(response => response.json())
+    // fetch('https:/jsonplaceholder.typicode.com/posts', {
+    //     method: "POST",
+    //     body: JSON.stringify({ name: 'Nick' }),
+    //     headers: {
+    //         'Content-type': 'application/json'
+    //     }
+    // })
+    //     .then(response => response.json())
     //     .then(json => console.log(json));
 
     // json - server(Exercise 89)
