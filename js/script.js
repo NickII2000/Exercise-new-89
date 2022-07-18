@@ -343,7 +343,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // json - server(Exercise 89)
 
-    fetch('http://localhost:3000/menu')
+    // fetch('http://localhost:3000/menu')
+    fetch('db.json')
         .then(data => data.json())
         .then(res => console.log(res));
 
